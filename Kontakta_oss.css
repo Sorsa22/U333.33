@@ -1,0 +1,57 @@
+@charset "UTF-8";
+  #wrappers #Img3 img{
+    width: 500px;
+    height: 500px;
+  }
+
+#wrapper #img1 p{
+  font-size: 16px;
+  color: black;
+}
+#wrapper #img1{
+  margin-bottom: 40px;
+  float: left;
+}
+#wrapper #img2{
+  margin-bottom: 20px;
+  float: right;
+}
+#wrapper #img3 img{
+  margin-top: 20px;
+  width: 400px;
+  height: 500px;
+}
+#wrapper #film1 video{
+  width:800px;
+  height:450px;
+  margin-left: 250px;
+}
+
+@media screen and (max-width:768px)
+{
+#wrapper #img1 img{
+  margin-bottom: 40px;
+  float: left;
+  width: 470px;
+  margin-left: 0px;
+}
+#wrapper #img2 img{
+  margin-bottom: 40px;
+  float: left;
+  width: 470px;
+  margin-left: 0px;
+}
+#wrapper #film1 video{
+  width:450px;
+  height:300px;
+  margin-left: 5px;
+}
+#wrappers #Img3{
+  width: 200px;
+  height: 200px;
+}
+#wrapper #Img3 img{
+  height: 360px;
+  width: 450px;
+}
+}
